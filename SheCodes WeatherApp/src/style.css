@@ -1,0 +1,68 @@
+body {
+  margin: 0px 50px;
+}
+.container {
+  min-width: 772px;
+}
+
+div.main {
+  height: 30rem;
+}
+.card {
+  margin-top: 25px;
+  border: 5px solid lightskyblue;
+  border-radius: 20px;
+}
+img {
+  margin-top: 25px;
+}
+p.main {
+  font-size: 40px;
+}
+
+p {
+  text-align: center;
+}
+
+div.prediction {
+  width: 150px;
+}
+p.prediction {
+  font-size: 17px;
+}
+
+p {
+  text-align: center;
+}
+
+.times {
+  width: 900px;
+}
+
+p {
+  text-align: center;
+}
+
+input.form-control {
+  max-width: 300px;
+  text-align: center;
+  border: 3px solid lightskyblue;
+  display: block;
+  margin: 0pt auto;
+}
+
+.today {
+  text-align: center;
+}
+
+.zoom {
+  background-color: lightskyblue;
+  border: 3px solid #ffffff;
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 5px 5px;
+  max-width: 40px;
+  height: 40px;
+  line-height: 0px;
+  color: white;
+}
