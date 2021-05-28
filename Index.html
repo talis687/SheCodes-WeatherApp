@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="C:\Users\talis\Documents\Program\SheCodes WeatherApp\src\style.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="card col-4 main">
+          <img
+            src="C:\Users\talis\Documents\Program\SheCodes WeatherApp\src\Sunny.png"
+            alt="Sunny"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <p class="card-body-text main">30°C 86°F</p>
+          </div>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-7">
+          <div class="row">
+            <div class="card col-2 prediction">
+              <img
+                src="C:\Users\talis\Documents\Program\SheCodes WeatherApp\src\Sunny.png"
+                alt="Sunny"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <p class="card-body-text prediction">30°C 86°F</p>
+              </div>
+            </div>
+            <div class="card col-2 prediction">
+              <img
+                src="C:\Users\talis\Documents\Program\SheCodes WeatherApp\src\Sunny.png"
+                alt="Sunny"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <p class="card-body-text prediction">30°C 86°F</p>
+              </div>
+            </div>
+            <div class="card col-2 prediction">
+              <img
+                src="C:\Users\talis\Documents\Program\SheCodes WeatherApp\src\Sunny.png"
+                alt="Sunny"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <p class="card-body-text prediction">30°C 86°F</p>
+              </div>
+            </div>
+          </div>
+          <div class="row times">
+            <p class="col-2">12.00pm Fri</p>
+            <p class="col-2">12.00pm Sat</p>
+            <p class="col-2">12.00pm Sun</p>
+          </div>
+          <div class="row">
+            <div class="card col-2 prediction">
+              <img
+                src="C:\Users\talis\Documents\Program\SheCodes WeatherApp\src\Sunny.png"
+                alt="Sunny"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <p class="card-body-text prediction">30°C 86°F</p>
+              </div>
+            </div>
+            <div class="card col-2 prediction">
+              <img
+                src="C:\Users\talis\Documents\Program\SheCodes WeatherApp\src\Sunny.png"
+                alt="Sunny"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <p class="card-body-text prediction">30°C 86°F</p>
+              </div>
+            </div>
+            <div class="card col-2 prediction">
+              <img
+                src="C:\Users\talis\Documents\Program\SheCodes WeatherApp\src\Sunny.png"
+                alt="Sunny"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <p class="card-body-text prediction">30°C 86°F</p>
+              </div>
+            </div>
+          </div>
+          <div class="row times">
+            <p class="col-2">12.00pm Mon</p>
+            <p class="col-2">12.00pm Tues</p>
+            <p class="col-2">12.00pm Wed</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <input
+            class="form-control"
+            list="datalistOptions"
+            id="exampleDataList"
+            placeholder="City Select"
+          />
+          <datalist id="datalistOptions">
+            <option value="Aveley, Aus"></option>
+            <option value="Chicago, USA"></option>
+            <option value="Los Angeles, USA"></option>
+            <option value="New York, USA"></option>
+            <option value="San Francisco, USA"></option>
+            <option value="Seattle, USA"></option>
+          </datalist>
+        </div>
+        <div class="col-6 today">
+          <h1>12:00 PM Thursday</h1>
+        </div>
+        <button type="button" class="btn btn-info col-1 zoom">-</button>
+        <button type="button" class="btn btn-info col-1 zoom">+</button>
+      </div>
+      <div class="row justify-content-end"></div>
+    </div>
+  </body>
+</html>
