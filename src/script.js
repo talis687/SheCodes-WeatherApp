@@ -20,3 +20,6 @@ let weather = {
     humidity: 20
   }
 };
+
+let city = prompt("Which City Are You Looking For?")
+
