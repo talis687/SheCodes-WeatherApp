@@ -23,3 +23,8 @@ let weather = {
 
 let city = prompt("Which City Are You Looking For?")
 
+if (city = weather[0]) {
+    alert = ""
+} else {
+    
+}
