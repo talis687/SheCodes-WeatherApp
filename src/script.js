@@ -24,7 +24,5 @@ let weather = {
 let city = prompt("Which City Are You Looking For?")
 
 if (city = weather[0]) {
-    alert = ` The temperture for ${ weather[0] } is ${ weather[0].temp } and its humidity is ${weather[0].humidity} `
-} else {if (city = weather[1]) 
-    alert = ` The temperture for ${ weather[1] } is ${ weather[1].temp } and its humidity is ${weather[1].humidity} 
+    alert (` The temperture for ${ weather[0] } is ${ weather[0].temp } and its humidity is ${weather[0].humidity} `)
 }
