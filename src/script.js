@@ -22,7 +22,5 @@ let weather = [
 ];
 
 let city = prompt("Which City Are You Looking For?")
-
-if (city.toLowerCase().trim() = weather.forEach)
-    {alert (` The temperture for ${ weather.forEach } is ${ weather.forEach.temp } and its humidity is ${weather.forEach.humidity} `)
-}
+city.toLowerCase()
+city.trim()
