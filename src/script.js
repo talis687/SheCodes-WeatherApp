@@ -27,4 +27,4 @@ if (city = weather[0]) {
     alert = ` The temperture for ${ weather[0] } is ${ weather[0].temp } and its humidity is ${weather[0].humidity} `
 } else {
     
-};
+}
