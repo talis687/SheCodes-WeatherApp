@@ -22,4 +22,10 @@ let weather = [
 ];
 
 let city = prompt("Which City Are You Looking For?")
-if(city.toLowerCase().trim()=weather[0]) alert(`the temperture is ${weather.temp[0]} °C and ${weather.humidity[0]}`)
+function cityWeather(){ weather.find weather[] => city.toLowerCase().trim()}
+
+if (cityWeather===true) {
+  alert(`The temperture is ${weather.temp[]} and the humidity ${weather.humidity[]}`)
+} else {
+  alert (`Sorry, we don't have that information at the moment`)
+}
