@@ -22,5 +22,4 @@ let weather = [
 ];
 
 let city = prompt("Which City Are You Looking For?")
-city.toLowerCase()
-city.trim()
+if(city.toLowerCase().trim()=weather[0]) alert(`the temperture is ${weather.temp[0]} °C and ${weather.humidity[0]}`)
